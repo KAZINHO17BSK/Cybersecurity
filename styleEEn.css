@@ -1,0 +1,107 @@
+body {
+    background-color: gray;
+}
+header {
+    background-image:url(images.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 3%;
+    margin: 0px;
+}
+img {
+    border-radius: 20px;
+}
+.En {
+    position: absolute; top: 20px; right: 20%;
+}
+.ME {
+    position: absolute; top: 20px; right: 20px;
+}
+nav {
+    background-color:rgb(196, 196, 177);
+    font-size: 150%;
+    color: rgb(196, 196, 177);
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex: 0 0 100%;
+}
+nav li {
+  margin: 0 60px;
+  flex-grow: 1;
+}
+nav a {
+    text-decoration: none;
+    color:rgb(12, 168, 168);
+}
+section {
+    display: flex;
+    min-height: 100vh;
+    justify-content: space-between;
+    padding: px;
+}
+aside {
+    flex:  0 20%;
+    background-image:url(ima2.jpg);
+    background-repeat: no-repeat;
+    background-size: 700%;
+    margin-left: 0%;
+}
+.TBL {
+    text-align: center;
+    font-size: 200%;
+    color: #fff;
+}
+.Lista {
+    color: #fff;
+    font-size: 120%;
+}
+.Lista li {
+    margin: 70px;
+    flex-grow: 1;
+  }
+.Lista a {
+      text-decoration:double;
+      color: white;
+}
+.DTQ1 {
+    position: absolute; top: 40%; left: 30%;
+    text-align: center;
+    color: white;
+}
+.DTQ1>a{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.DTQ2 {
+    position: absolute; top: 40%; left: 60%;
+    text-align: center;
+    color: white;
+}
+.DTQ2>a{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.TxT {
+    font-size: 25px;
+    font-family: "Arial";
+    text-align: left;
+    color: white;
+}
